@@ -23,20 +23,31 @@ Our goal is to provide an interpretable and extensible AI framework for understa
 
 ## How to use
 **1. Code usage**
-- If you want to use the project as Python scripts, please refer to the source codes in the 'src' folder.
-- If you prefer working with Jupyter Notebooks, please use the notebooks provided in the 'model' folder.
+- If you want to use the project as Python scripts, please refer to the source codes in the **'src'** folder.
+- If you prefer working with Jupyter Notebooks, please use the notebooks provided in the **'model'** folder.
   
 **2. One-hot Encoded Variant Features**
 - One-hot encoded matrices for CYP2D6 variants are provided in CSV format.
 - Each variant is encoded using 7 feature types:
-    - A, T, G, C
+    - A
+    - T
+    - G
+    - C
     - SNP
     - INDEL
     - EXON/INTRON
-- These files are located in 'data/main_dataset/onehot_7'.
+- These files are located in **'data/main_dataset/onehot_7'**
 
 **3. Training and Test Dataset**
-- The datasets used for model training and evaluation are located under 'data/main_dataset/'.
-    - 'train_473' : training data
-    - 'test_149' : test data
+- The datasets used for model training and evaluation are located under **'data/main_dataset/'**
+    - **'train_473'** : training data
+    - **'test_149'** : test data
     - The numbers in the filenames indicate the number of samples in each dataset.
+ 
+# Contact
+
+If you have any questions or comments, please feel free to create an issue on github here, or email us:
+
+- naybean990209@gmail.com
+
+
