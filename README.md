@@ -20,3 +20,23 @@ Our goal is to provide an interpretable and extensible AI framework for understa
 `torch_geometric == 2.3.1`
 `scikit-learn == 1.0.2`
 `RDKit == 2023.03.2`
+
+## How to use
+**1. Code usage**
+- If you want to use the project as Python scripts, please refer to the source codes in the 'src' folder.
+- If you prefer working with Jupyter Notebooks, please use the notebooks provided in the 'model' folder.
+  
+**2. One-hot Encoded Variant Features**
+- One-hot encoded matrices for CYP2D6 variants are provided in CSV format.
+- Each variant is encoded using 7 feature types:
+    - A, T, G, C
+    - SNP
+    - INDEL
+    - EXON/INTRON
+- These files are located in 'data/main_dataset/onehot_7'.
+
+**3. Training and Test Dataset**
+- The datasets used for model training and evaluation are located under 'data/main_dataset/'.
+    - 'train_473' : training data
+    - 'test_149' : test data
+    - The numbers in the filenames indicate the number of samples in each dataset.
