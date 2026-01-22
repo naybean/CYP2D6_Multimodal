@@ -10,7 +10,7 @@ We present CYP2D6-MultiMod, a multimodal deep learning framework that predicts d
 This repository contains the data preprocessing pipeline, model architectures (CNN + GCN fusion), and training / evaluation scripts used in our study.
 Our goal is to provide an interpretable and extensible AI framework for understanding the relationship between genotype, drug structure, and metabolic activity, ultimately contributing to precision medicine and drug development.
 
-- [Data](https://github.com/naybean/CYP2D6_Multimodal/tree/main/data)
+- [Data](https://github.com/naybean/CYP2D6_MultiMod/tree/main/data/main%20dataset)
 - [onehot_encoded_matrix](https://github.com/naybean/CYP2D6_Multimodal/tree/main/data/onehot_7)
 
 ## Dependency
