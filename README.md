@@ -31,7 +31,7 @@ Our goal is to provide an interpretable and extensible AI framework for understa
     - **'train_473'** : training data
     - **'test_149'** : test data
     - The numbers in the filenames indicate the number of samples in each dataset.
-    - 
+      
 **3. One-hot Encoded Variant Features**
 - One-hot encoded matrices for CYP2D6 variants are provided in CSV format.
 - Each variant is encoded using 7 feature types:
