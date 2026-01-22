@@ -47,7 +47,7 @@ Our goal is to provide an interpretable and extensible AI framework for understa
 **4. Drug Representation and Unseen Drug Evaluation**
 - Drug information is provided as **SMILES** strings, which are stored in the **'isomeric'** column of the dataset.
 - To evaluate the model on external drugs, you can use the **'unseen drug'** file located at **'data/unseen.'**
-- These unseen drugs were not used during training and are provided for evaluating the generalization performance of the model.
+    - These unseen drugs were not used during training and are provided for evaluating the generalization performance of the model.
 
 # Contact
 
